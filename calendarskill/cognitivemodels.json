@@ -1,0 +1,29 @@
+{
+  "cognitiveModels": {
+    "en-us": {
+      "languageModels": [
+        {
+          "appid": "d31116a4-f0ca-4d16-bfb3-3f31cdc19b57",
+          "subscriptionkey": "883d20f7e05c45449002de085af3ec6b",
+          "region": "westus",
+          "authoringRegion": "westus",
+          "name": "calendar-skillen-us_Calendar",
+          "id": "Calendar",
+          "version": "0.1",
+          "authoringkey": "b7307bf7a7d6412fa32bf38e8cdbb938"
+        },
+        {
+          "appid": "12ba9008-df3a-4966-ba36-1fd83b02cfc8",
+          "subscriptionkey": "883d20f7e05c45449002de085af3ec6b",
+          "region": "westus",
+          "authoringRegion": "westus",
+          "name": "calendar-skillen-us_General",
+          "id": "General",
+          "version": "0.1",
+          "authoringkey": "b7307bf7a7d6412fa32bf38e8cdbb938"
+        }
+      ]
+    }
+  },
+  "defaultLocale": "en-us"
+}

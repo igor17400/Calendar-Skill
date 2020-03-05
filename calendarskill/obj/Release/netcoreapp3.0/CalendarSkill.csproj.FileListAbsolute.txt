@@ -1,0 +1,14 @@
+/Users/igorazevedo/Desktop/Programming/Chatbot/Calendar-Skill/calendarskill/obj/Release/netcoreapp3.0/CalendarSkill.csprojAssemblyReference.cache
+/Users/igorazevedo/Desktop/Programming/Chatbot/Calendar-Skill/calendarskill/obj/Release/netcoreapp3.0/staticwebassets/CalendarSkill.StaticWebAssets.Manifest.cache
+/Users/igorazevedo/Desktop/Programming/Chatbot/Calendar-Skill/calendarskill/obj/Release/netcoreapp3.0/staticwebassets/CalendarSkill.StaticWebAssets.xml
+/Users/igorazevedo/Desktop/Programming/Chatbot/Calendar-Skill/calendarskill/obj/Release/netcoreapp3.0/CalendarSkill.Responses.Shared.CalendarCommonStrings.resources
+/Users/igorazevedo/Desktop/Programming/Chatbot/Calendar-Skill/calendarskill/obj/Release/netcoreapp3.0/CalendarSkill.Responses.Shared.CalendarCommonStrings.de.resources
+/Users/igorazevedo/Desktop/Programming/Chatbot/Calendar-Skill/calendarskill/obj/Release/netcoreapp3.0/CalendarSkill.Responses.Shared.CalendarCommonStrings.es.resources
+/Users/igorazevedo/Desktop/Programming/Chatbot/Calendar-Skill/calendarskill/obj/Release/netcoreapp3.0/CalendarSkill.Responses.Shared.CalendarCommonStrings.fr.resources
+/Users/igorazevedo/Desktop/Programming/Chatbot/Calendar-Skill/calendarskill/obj/Release/netcoreapp3.0/CalendarSkill.Responses.Shared.CalendarCommonStrings.it.resources
+/Users/igorazevedo/Desktop/Programming/Chatbot/Calendar-Skill/calendarskill/obj/Release/netcoreapp3.0/CalendarSkill.Responses.Shared.CalendarCommonStrings.zh.resources
+/Users/igorazevedo/Desktop/Programming/Chatbot/Calendar-Skill/calendarskill/obj/Release/netcoreapp3.0/CalendarSkill.csproj.GenerateResource.cache
+/Users/igorazevedo/Desktop/Programming/Chatbot/Calendar-Skill/calendarskill/obj/Release/netcoreapp3.0/CalendarSkill.MvcApplicationPartsAssemblyInfo.cs
+/Users/igorazevedo/Desktop/Programming/Chatbot/Calendar-Skill/calendarskill/obj/Release/netcoreapp3.0/CalendarSkill.MvcApplicationPartsAssemblyInfo.cache
+/Users/igorazevedo/Desktop/Programming/Chatbot/Calendar-Skill/calendarskill/obj/Release/netcoreapp3.0/CalendarSkill.AssemblyInfoInputs.cache
+/Users/igorazevedo/Desktop/Programming/Chatbot/Calendar-Skill/calendarskill/obj/Release/netcoreapp3.0/CalendarSkill.AssemblyInfo.cs

@@ -1,0 +1,220 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/igorazevedo/Desktop/Programming/Chatbot/Calendar-Skill/calendarskill/CalendarSkill.csproj": {}
+  },
+  "projects": {
+    "/Users/igorazevedo/Desktop/Programming/Chatbot/Calendar-Skill/calendarskill/CalendarSkill.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/igorazevedo/Desktop/Programming/Chatbot/Calendar-Skill/calendarskill/CalendarSkill.csproj",
+        "projectName": "CalendarSkill",
+        "projectPath": "/Users/igorazevedo/Desktop/Programming/Chatbot/Calendar-Skill/calendarskill/CalendarSkill.csproj",
+        "packagesPath": "/Users/igorazevedo/.nuget/packages/",
+        "outputPath": "/Users/igorazevedo/Desktop/Programming/Chatbot/Calendar-Skill/calendarskill/obj/",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "/Users/igorazevedo/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.0": {
+            "projectReferences": {
+              "/Users/igorazevedo/Desktop/Programming/Chatbot/Calendar-Skill/shared/SkillServiceLibrary/SkillServiceLibrary.csproj": {
+                "projectPath": "/Users/igorazevedo/Desktop/Programming/Chatbot/Calendar-Skill/shared/SkillServiceLibrary/SkillServiceLibrary.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "noWarn": [
+            "NU1701"
+          ],
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.0": {
+          "dependencies": {
+            "Google.Apis.Calendar.v3": {
+              "target": "Package",
+              "version": "[1.40.2.1620, )"
+            },
+            "Google.Apis.People.v1": {
+              "target": "Package",
+              "version": "[1.25.0.830, )"
+            },
+            "HtmlAgilityPack": {
+              "target": "Package",
+              "version": "[1.11.7, )"
+            },
+            "Microsoft.Azure.CognitiveServices.Language": {
+              "target": "Package",
+              "version": "[1.0.1-preview, )"
+            },
+            "Microsoft.Azure.CognitiveServices.Search.NewsSearch": {
+              "target": "Package",
+              "version": "[2.0.0, )"
+            },
+            "Microsoft.Azure.Search": {
+              "target": "Package",
+              "version": "[10.0.1, )"
+            },
+            "Microsoft.Bot.Builder": {
+              "target": "Package",
+              "version": "[4.7.2, )"
+            },
+            "Microsoft.Bot.Builder.AI.Luis": {
+              "target": "Package",
+              "version": "[4.7.2, )"
+            },
+            "Microsoft.Bot.Builder.AI.QnA": {
+              "target": "Package",
+              "version": "[4.7.2, )"
+            },
+            "Microsoft.Bot.Builder.ApplicationInsights": {
+              "target": "Package",
+              "version": "[4.7.2, )"
+            },
+            "Microsoft.Bot.Builder.Azure": {
+              "target": "Package",
+              "version": "[4.7.2, )"
+            },
+            "Microsoft.Bot.Builder.Dialogs": {
+              "target": "Package",
+              "version": "[4.7.2, )"
+            },
+            "Microsoft.Bot.Builder.Integration.ApplicationInsights.Core": {
+              "target": "Package",
+              "version": "[4.7.2, )"
+            },
+            "Microsoft.Bot.Builder.Integration.AspNet.Core": {
+              "target": "Package",
+              "version": "[4.7.2, )"
+            },
+            "Microsoft.Bot.Builder.LanguageGeneration": {
+              "target": "Package",
+              "version": "[4.7.2-preview, )"
+            },
+            "Microsoft.Bot.Configuration": {
+              "target": "Package",
+              "version": "[4.7.2, )"
+            },
+            "Microsoft.Bot.Connector": {
+              "target": "Package",
+              "version": "[4.7.2, )"
+            },
+            "Microsoft.Bot.Schema": {
+              "target": "Package",
+              "version": "[4.7.2, )"
+            },
+            "Microsoft.Bot.Solutions": {
+              "target": "Package",
+              "version": "[0.8.0-preview1, )"
+            },
+            "Microsoft.Graph": {
+              "target": "Package",
+              "version": "[1.15.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.1.100/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/igorazevedo/Desktop/Programming/Chatbot/Calendar-Skill/shared/SkillServiceLibrary/SkillServiceLibrary.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/igorazevedo/Desktop/Programming/Chatbot/Calendar-Skill/shared/SkillServiceLibrary/SkillServiceLibrary.csproj",
+        "projectName": "SkillServiceLibrary",
+        "projectPath": "/Users/igorazevedo/Desktop/Programming/Chatbot/Calendar-Skill/shared/SkillServiceLibrary/SkillServiceLibrary.csproj",
+        "packagesPath": "/Users/igorazevedo/.nuget/packages/",
+        "outputPath": "/Users/igorazevedo/Desktop/Programming/Chatbot/Calendar-Skill/shared/SkillServiceLibrary/obj/",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "/Users/igorazevedo/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.0": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.0": {
+          "dependencies": {
+            "Microsoft.Bot.Solutions": {
+              "target": "Package",
+              "version": "[0.8.0-preview1, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[12.0.3, )"
+            },
+            "System.Drawing.Common": {
+              "target": "Package",
+              "version": "[4.6.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.1.100/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

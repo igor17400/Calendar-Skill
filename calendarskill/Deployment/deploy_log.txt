@@ -1,0 +1,389 @@
+AZ CLI passes minimum version. Current version is 2.1.0
+{
+  "error": null,
+  "id": "/subscriptions/1d5d75a1-6586-48a3-8b56-10ac0b437638/resourceGroups/calendar-skill/providers/Microsoft.Resources/deployments/deployment_dry_run",
+  "name": "deployment_dry_run",
+  "properties": {
+    "correlationId": "4ce36724-1315-40b4-a2fb-4456eef7a0a2",
+    "debugSetting": null,
+    "dependencies": [
+      {
+        "dependsOn": [
+          {
+            "id": "/subscriptions/1d5d75a1-6586-48a3-8b56-10ac0b437638/resourceGroups/calendar-skill/providers/Microsoft.Web/serverfarms/calendar-skill-u77cnkw",
+            "resourceGroup": "calendar-skill",
+            "resourceName": "calendar-skill-u77cnkw",
+            "resourceType": "Microsoft.Web/serverfarms"
+          }
+        ],
+        "id": "/subscriptions/1d5d75a1-6586-48a3-8b56-10ac0b437638/resourceGroups/calendar-skill/providers/Microsoft.Web/sites/calendar-skill-u77cnkw",
+        "resourceGroup": "calendar-skill",
+        "resourceName": "calendar-skill-u77cnkw",
+        "resourceType": "Microsoft.Web/sites"
+      },
+      {
+        "dependsOn": [
+          {
+            "id": "/subscriptions/1d5d75a1-6586-48a3-8b56-10ac0b437638/resourceGroups/calendar-skill/providers/Microsoft.Insights/components/calendar-skill-u77cnkw",
+            "resourceGroup": "calendar-skill",
+            "resourceName": "calendar-skill-u77cnkw",
+            "resourceType": "Microsoft.Insights/components"
+          }
+        ],
+        "id": "/subscriptions/1d5d75a1-6586-48a3-8b56-10ac0b437638/resourceGroups/calendar-skill/providers/Microsoft.BotService/botServices/calendar-skill-u77cnkw",
+        "resourceGroup": "calendar-skill",
+        "resourceName": "calendar-skill-u77cnkw",
+        "resourceType": "Microsoft.BotService/botServices"
+      },
+      {
+        "dependsOn": [
+          {
+            "id": "/subscriptions/1d5d75a1-6586-48a3-8b56-10ac0b437638/resourceGroups/calendar-skill/providers/Microsoft.CognitiveServices/accounts/calendar-skill-luisruntime-u77cnkw",
+            "resourceGroup": "calendar-skill",
+            "resourceName": "calendar-skill-luisruntime-u77cnkw",
+            "resourceType": "Microsoft.CognitiveServices/accounts"
+          }
+        ],
+        "id": "/subscriptions/1d5d75a1-6586-48a3-8b56-10ac0b437638/resourceGroups/calendar-skill/providers/Microsoft.CognitiveServices/accounts/calendar-skill-luisauthoring-u77cnkw",
+        "resourceGroup": "calendar-skill",
+        "resourceName": "calendar-skill-luisauthoring-u77cnkw",
+        "resourceType": "Microsoft.CognitiveServices/accounts"
+      }
+    ],
+    "duration": "PT0S",
+    "mode": "Incremental",
+    "onErrorDeployment": null,
+    "outputs": null,
+    "parameters": {
+      "appInsightsLocation": {
+        "type": "String",
+        "value": "westus"
+      },
+      "appInsightsName": {
+        "type": "String",
+        "value": "calendar-skill-u77cnkw"
+      },
+      "appServicePlanName": {
+        "type": "String",
+        "value": "calendar-skill-u77cnkw"
+      },
+      "appServicePlanSku": {
+        "type": "Object",
+        "value": {
+          "name": "S1",
+          "tier": "Standard"
+        }
+      },
+      "botServiceName": {
+        "type": "String",
+        "value": "calendar-skill-u77cnkw"
+      },
+      "botServiceSku": {
+        "type": "String",
+        "value": "S1"
+      },
+      "botWebAppName": {
+        "type": "String",
+        "value": "calendar-skill-u77cnkw"
+      },
+      "cosmosDbName": {
+        "type": "String",
+        "value": "calendar-skill-u77cnkw"
+      },
+      "location": {
+        "type": "String",
+        "value": "westus"
+      },
+      "luisAuthoringLocation": {
+        "type": "String",
+        "value": "westus"
+      },
+      "luisAuthoringName": {
+        "type": "String",
+        "value": "calendar-skill-luisauthoring-u77cnkw"
+      },
+      "luisAuthoringSku": {
+        "type": "String",
+        "value": "F0"
+      },
+      "luisRuntimeLocation": {
+        "type": "String",
+        "value": "westus"
+      },
+      "luisRuntimeName": {
+        "type": "String",
+        "value": "calendar-skill-luisruntime-u77cnkw"
+      },
+      "luisRuntimeSku": {
+        "type": "String",
+        "value": "S0"
+      },
+      "microsoftAppId": {
+        "type": "String",
+        "value": "d1e77dd7-42ef-490e-bed2-8a7dfb534ce1"
+      },
+      "microsoftAppPassword": {
+        "type": "String",
+        "value": "yestec"
+      },
+      "name": {
+        "type": "String",
+        "value": "calendar-skill"
+      },
+      "resourceTagName": {
+        "type": "String",
+        "value": "bot"
+      },
+      "resourceTagValue": {
+        "type": "String",
+        "value": "calendar-skill-u77cnkw"
+      },
+      "storageAccountName": {
+        "type": "String",
+        "value": "calendar-skill-u77cnkw"
+      },
+      "suffix": {
+        "type": "String",
+        "value": "u77cnkw"
+      },
+      "useCosmosDb": {
+        "type": "Bool",
+        "value": true
+      },
+      "useLuisAuthoring": {
+        "type": "Bool",
+        "value": true
+      },
+      "useStorage": {
+        "type": "Bool",
+        "value": true
+      }
+    },
+    "parametersLink": null,
+    "providers": [
+      {
+        "id": null,
+        "namespace": "Microsoft.Resources",
+        "registrationPolicy": null,
+        "registrationState": null,
+        "resourceTypes": [
+          {
+            "aliases": null,
+            "apiVersions": null,
+            "capabilities": null,
+            "locations": [
+              null
+            ],
+            "properties": null,
+            "resourceType": "deployments"
+          }
+        ]
+      },
+      {
+        "id": null,
+        "namespace": "Microsoft.DocumentDB",
+        "registrationPolicy": null,
+        "registrationState": null,
+        "resourceTypes": [
+          {
+            "aliases": null,
+            "apiVersions": null,
+            "capabilities": null,
+            "locations": [
+              "westus"
+            ],
+            "properties": null,
+            "resourceType": "databaseAccounts"
+          }
+        ]
+      },
+      {
+        "id": null,
+        "namespace": "Microsoft.Storage",
+        "registrationPolicy": null,
+        "registrationState": null,
+        "resourceTypes": [
+          {
+            "aliases": null,
+            "apiVersions": null,
+            "capabilities": null,
+            "locations": [
+              "westus"
+            ],
+            "properties": null,
+            "resourceType": "storageAccounts"
+          }
+        ]
+      },
+      {
+        "id": null,
+        "namespace": "Microsoft.Web",
+        "registrationPolicy": null,
+        "registrationState": null,
+        "resourceTypes": [
+          {
+            "aliases": null,
+            "apiVersions": null,
+            "capabilities": null,
+            "locations": [
+              "westus"
+            ],
+            "properties": null,
+            "resourceType": "serverFarms"
+          },
+          {
+            "aliases": null,
+            "apiVersions": null,
+            "capabilities": null,
+            "locations": [
+              "westus"
+            ],
+            "properties": null,
+            "resourceType": "sites"
+          }
+        ]
+      },
+      {
+        "id": null,
+        "namespace": "Microsoft.Insights",
+        "registrationPolicy": null,
+        "registrationState": null,
+        "resourceTypes": [
+          {
+            "aliases": null,
+            "apiVersions": null,
+            "capabilities": null,
+            "locations": [
+              "westus"
+            ],
+            "properties": null,
+            "resourceType": "components"
+          }
+        ]
+      },
+      {
+        "id": null,
+        "namespace": "Microsoft.BotService",
+        "registrationPolicy": null,
+        "registrationState": null,
+        "resourceTypes": [
+          {
+            "aliases": null,
+            "apiVersions": null,
+            "capabilities": null,
+            "locations": [
+              "global"
+            ],
+            "properties": null,
+            "resourceType": "botServices"
+          }
+        ]
+      },
+      {
+        "id": null,
+        "namespace": "Microsoft.CognitiveServices",
+        "registrationPolicy": null,
+        "registrationState": null,
+        "resourceTypes": [
+          {
+            "aliases": null,
+            "apiVersions": null,
+            "capabilities": null,
+            "locations": [
+              "westus"
+            ],
+            "properties": null,
+            "resourceType": "accounts"
+          }
+        ]
+      }
+    ],
+    "provisioningState": "Succeeded",
+    "template": null,
+    "templateHash": "4519038890302837297",
+    "templateLink": null,
+    "timestamp": "2020-03-04T23:46:39.835273+00:00",
+    "validatedResources": [
+      {
+        "id": "/subscriptions/1d5d75a1-6586-48a3-8b56-10ac0b437638/resourceGroups/calendar-skill/providers/Microsoft.Resources/deployments/121273df-3e0c-4554-9c92-4a3acb4b530c",
+        "resourceGroup": "calendar-skill"
+      },
+      {
+        "id": "/subscriptions/1d5d75a1-6586-48a3-8b56-10ac0b437638/resourceGroups/calendar-skill/providers/Microsoft.DocumentDB/databaseAccounts/calendar-skill-u77cnkw",
+        "resourceGroup": "calendar-skill"
+      },
+      {
+        "id": "/subscriptions/1d5d75a1-6586-48a3-8b56-10ac0b437638/resourceGroups/calendar-skill/providers/Microsoft.Storage/storageAccounts/calendarskillu77cnkw",
+        "resourceGroup": "calendar-skill"
+      },
+      {
+        "id": "/subscriptions/1d5d75a1-6586-48a3-8b56-10ac0b437638/resourceGroups/calendar-skill/providers/Microsoft.Web/serverFarms/calendar-skill-u77cnkw",
+        "resourceGroup": "calendar-skill"
+      },
+      {
+        "id": "/subscriptions/1d5d75a1-6586-48a3-8b56-10ac0b437638/resourceGroups/calendar-skill/providers/Microsoft.Insights/components/calendar-skill-u77cnkw",
+        "resourceGroup": "calendar-skill"
+      },
+      {
+        "id": "/subscriptions/1d5d75a1-6586-48a3-8b56-10ac0b437638/resourceGroups/calendar-skill/providers/Microsoft.Web/sites/calendar-skill-u77cnkw",
+        "resourceGroup": "calendar-skill"
+      },
+      {
+        "id": "/subscriptions/1d5d75a1-6586-48a3-8b56-10ac0b437638/resourceGroups/calendar-skill/providers/Microsoft.BotService/botServices/calendar-skill-u77cnkw",
+        "resourceGroup": "calendar-skill"
+      },
+      {
+        "id": "/subscriptions/1d5d75a1-6586-48a3-8b56-10ac0b437638/resourceGroups/calendar-skill/providers/Microsoft.CognitiveServices/accounts/calendar-skill-luisruntime-u77cnkw",
+        "resourceGroup": "calendar-skill"
+      },
+      {
+        "id": "/subscriptions/1d5d75a1-6586-48a3-8b56-10ac0b437638/resourceGroups/calendar-skill/providers/Microsoft.CognitiveServices/accounts/calendar-skill-luisauthoring-u77cnkw",
+        "resourceGroup": "calendar-skill"
+      }
+    ]
+  },
+  "resourceGroup": "calendar-skill",
+  "type": "Microsoft.Resources/deployments"
+}
+{
+  "applicationInsights": {
+    "type": "Object",
+    "value": {
+      "InstrumentationKey": "8fd90c97-513c-4b92-850c-61f16d88f0f1"
+    }
+  },
+  "blobStorage": {
+    "type": "Object",
+    "value": {
+      "connectionString": "DefaultEndpointsProtocol=https;AccountName=calendarskillu77cnkw;AccountKey=xd56s4kVBbRcToPoHM0tFlXSkffiK+DNiXq0LZkTXSQou82d3iWQkdDctjQ/pYaHY9Ih/xo5Qem6fnxYCXfHhw==;EndpointSuffix=core.windows.net",
+      "container": "transcripts"
+    }
+  },
+  "botWebAppName": {
+    "type": "String",
+    "value": "calendar-skill-u77cnkw"
+  },
+  "cosmosDb": {
+    "type": "Object",
+    "value": {
+      "authKey": "l7PQWBNbflIa1NxnCGNQsC7m2DNBMClJl30MFeA2JW7KlLB0OXTITpXS19Ro7FqtzqrlRYC62YO5mQBu8qFJBg==",
+      "collectionId": "botstate-collection",
+      "cosmosDBEndpoint": "https://calendar-skill-u77cnkw.documents.azure.com:443/",
+      "databaseId": "botstate-db"
+    }
+  },
+  "luis": {
+    "type": "Object",
+    "value": {
+      "accountName": "calendar-skill-luisruntime-u77cnkw",
+      "authoringKey": "b7307bf7a7d6412fa32bf38e8cdbb938",
+      "authoringRegion": "westus",
+      "key": "883d20f7e05c45449002de085af3ec6b",
+      "region": "westus"
+    }
+  },
+  "resourceGroupName": {
+    "type": "String",
+    "value": "calendar-skill"
+  }
+}

@@ -1,0 +1,17 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CalendarSkill", "CalendarSkill.csproj", "{CBD24232-7BD6-4B01-A592-DFEF1F4E3487}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CBD24232-7BD6-4B01-A592-DFEF1F4E3487}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CBD24232-7BD6-4B01-A592-DFEF1F4E3487}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CBD24232-7BD6-4B01-A592-DFEF1F4E3487}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CBD24232-7BD6-4B01-A592-DFEF1F4E3487}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,7 @@
+Microsoft (R) Build Engine version 16.4.0+e901037fe for .NET Core
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+/usr/local/share/dotnet/sdk/3.1.100/Microsoft.Common.CurrentVersion.targets(1875,5): warning : The referenced project '../shared/SkillServiceLibrary/SkillServiceLibrary.csproj' does not exist. [/Users/igorazevedo/Desktop/Programming/Chatbot/Calendar-Skill/calendarskill/CalendarSkill.csproj]
+Adapters/DefaultAdapter.cs(16,7): error CS0246: The type or namespace name 'SkillServiceLibrary' could not be found (are you missing a using directive or an assembly reference?) [/Users/igorazevedo/Desktop/Programming/Chatbot/Calendar-Skill/calendarskill/CalendarSkill.csproj]
+Dialogs/MainDialog.cs(16,7): error CS0246: The type or namespace name 'SkillServiceLibrary' could not be found (are you missing a using directive or an assembly reference?) [/Users/igorazevedo/Desktop/Programming/Chatbot/Calendar-Skill/calendarskill/CalendarSkill.csproj]
+Dialogs/FindMeetingRoomDialog.cs(620,22): warning CS0108: 'FindMeetingRoomDialog.ParseFloorNumber(string, string)' hides inherited member 'CalendarSkillDialogBase.ParseFloorNumber(string, string)'. Use the new keyword if hiding was intended. [/Users/igorazevedo/Desktop/Programming/Chatbot/Calendar-Skill/calendarskill/CalendarSkill.csproj]

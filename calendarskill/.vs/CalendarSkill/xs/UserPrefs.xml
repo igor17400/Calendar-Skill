@@ -1,0 +1,30 @@
+﻿<Properties StartupConfiguration="{CBD24232-7BD6-4B01-A592-DFEF1F4E3487}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="appsettings.json">
+    <Files>
+      <File FileName="CalendarSkill.csproj" Line="38" Column="6" />
+      <File FileName="Adapters/DefaultAdapter.cs" Line="39" Column="25" />
+      <File FileName="appsettings.json" Line="61" Column="34" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="CalendarSkill" expanded="True">
+            <Node name="CalendarSkill" expanded="True">
+              <Node name="Adapters" expanded="True" />
+              <Node name="Deployment" expanded="True" />
+              <Node name="Dialogs" expanded="True" />
+              <Node name="appsettings.json" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.CalendarSkill PreferredExecutionTarget="/Applications/Safari.app" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

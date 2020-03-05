@@ -1,0 +1,75 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/igorazevedo/Desktop/Programming/Chatbot/Calendar-Skill/shared/SkillServiceLibrary/SkillServiceLibrary.csproj": {}
+  },
+  "projects": {
+    "/Users/igorazevedo/Desktop/Programming/Chatbot/Calendar-Skill/shared/SkillServiceLibrary/SkillServiceLibrary.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/igorazevedo/Desktop/Programming/Chatbot/Calendar-Skill/shared/SkillServiceLibrary/SkillServiceLibrary.csproj",
+        "projectName": "SkillServiceLibrary",
+        "projectPath": "/Users/igorazevedo/Desktop/Programming/Chatbot/Calendar-Skill/shared/SkillServiceLibrary/SkillServiceLibrary.csproj",
+        "packagesPath": "/Users/igorazevedo/.nuget/packages/",
+        "outputPath": "/Users/igorazevedo/Desktop/Programming/Chatbot/Calendar-Skill/shared/SkillServiceLibrary/obj/",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "/Users/igorazevedo/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.0": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.0": {
+          "dependencies": {
+            "Microsoft.Bot.Solutions": {
+              "target": "Package",
+              "version": "[0.8.0-preview1, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[12.0.3, )"
+            },
+            "System.Drawing.Common": {
+              "target": "Package",
+              "version": "[4.6.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.1.100/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

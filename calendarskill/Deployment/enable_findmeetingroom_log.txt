@@ -1,0 +1,119 @@
+AZ CLI passes minimum version. Current version is 2.1.0
+Write-Verbose : Cannot bind argument to parameter 'Message' because it is null.
+At /Users/igorazevedo/.local/share/powershell/Modules/CosmosDB/3.5.1.458/CosmosDB.psm1:5072 char:32
++ ...    Write-Verbose -Message $($LocalizedData.NoResourceTokensInContext)
++                               ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
++ CategoryInfo          : InvalidData: (:) [Write-Verbose], ParameterBindingValidationException
++ FullyQualifiedErrorId : ParameterArgumentValidationErrorNullNotAllowed,Microsoft.PowerShell.Commands.WriteVerboseCommand
+ 
+Write-Verbose : Cannot bind argument to parameter 'Message' because it is null.
+At /Users/igorazevedo/.local/share/powershell/Modules/CosmosDB/3.5.1.458/CosmosDB.psm1:5072 char:32
++ ...    Write-Verbose -Message $($LocalizedData.NoResourceTokensInContext)
++                               ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
++ CategoryInfo          : InvalidData: (:) [Write-Verbose], ParameterBindingValidationException
++ FullyQualifiedErrorId : ParameterArgumentValidationErrorNullNotAllowed,Microsoft.PowerShell.Commands.WriteVerboseCommand
+ 
+{
+  "error": null,
+  "id": "/subscriptions/1d5d75a1-6586-48a3-8b56-10ac0b437638/resourceGroups/calendar-skill/providers/Microsoft.Resources/deployments/deployment_dry_run",
+  "name": "deployment_dry_run",
+  "properties": {
+    "correlationId": "2490b18d-180b-42d2-a0e8-705c6e59cc03",
+    "debugSetting": null,
+    "dependencies": [],
+    "duration": "PT0S",
+    "mode": "Incremental",
+    "onErrorDeployment": null,
+    "outputs": null,
+    "parameters": {
+      "azureSearchName": {
+        "type": "String",
+        "value": "calendar-skill-u77cnkw"
+      },
+      "location": {
+        "type": "String",
+        "value": "westus"
+      },
+      "name": {
+        "type": "String",
+        "value": "calendar-skill"
+      },
+      "suffix": {
+        "type": "String",
+        "value": "u77cnkw"
+      },
+      "useAzureSearch": {
+        "type": "Bool",
+        "value": true
+      }
+    },
+    "parametersLink": null,
+    "providers": [
+      {
+        "id": null,
+        "namespace": "Microsoft.Search",
+        "registrationPolicy": null,
+        "registrationState": null,
+        "resourceTypes": [
+          {
+            "aliases": null,
+            "apiVersions": null,
+            "capabilities": null,
+            "locations": [
+              "westus"
+            ],
+            "properties": null,
+            "resourceType": "searchServices"
+          }
+        ]
+      }
+    ],
+    "provisioningState": "Succeeded",
+    "template": null,
+    "templateHash": "5022438839856542971",
+    "templateLink": null,
+    "timestamp": "2020-03-05T00:33:47.123639+00:00",
+    "validatedResources": [
+      {
+        "id": "/subscriptions/1d5d75a1-6586-48a3-8b56-10ac0b437638/resourceGroups/calendar-skill/providers/Microsoft.Search/searchServices/calendar-skill-u77cnkw",
+        "resourceGroup": "calendar-skill"
+      }
+    ]
+  },
+  "resourceGroup": "calendar-skill",
+  "type": "Microsoft.Resources/deployments"
+}
+{
+  "azureSearch": {
+    "type": "Object",
+    "value": {
+      "apiKey": "DCC1F0D1B1282BE6186E11CD01D7C1A6",
+      "azureSearchAccount": "calendar-skill-u77cnkw",
+      "collectionId": "azuresearchid",
+      "databaseId": "azuresearch"
+    }
+  }
+}
+Invoke-RestMethod : {"error":"authorization_pending","error_description":"AADSTS70016: OAuth 2.0 device flow error. Authorization is pending. Continue polling.\r\nTrace ID: b59b2dbe-e243-4131-81fd-73feedec3300\r\nCorrelation ID: cabeeb23-32f7-43f6-bc3b-588ab5e2074f\r\nTimestamp: 2020-03-05 00:37:21Z","error_codes":[70016],"timestamp":"2020-03-05 00:37:21Z","trace_id":"b59b2dbe-e243-4131-81fd-73feedec3300","correlation_id":"cabeeb23-32f7-43f6-bc3b-588ab5e2074f","error_uri":"https://login.microsoftonline.com/error?code=70016"}
+At /Users/igorazevedo/Desktop/Programming/Chatbot/Calendar-Skill/calendarskill/Deployment/Scripts/msgraph_functions.ps1:28 char:14
++ ...   $result = Invoke-RestMethod -Uri $url -Headers $headers -Method Pos ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
++ CategoryInfo          : InvalidOperation: (Method: POST, Reque\u2026-form-urlencoded
+}:HttpRequestMessage) [Invoke-RestMethod], HttpResponseException
++ FullyQualifiedErrorId : WebCmdletWebResponseException,Microsoft.PowerShell.Commands.InvokeRestMethodCommand
+Invoke-RestMethod : {
+  "error": {
+    "code": "InvalidAuthenticationToken",
+    "message": "CompactToken parsing failed with error code: 80049217",
+    "innerError": {
+      "request-id": "282daf39-924c-4254-a908-6f567c2086e5",
+      "date": "2020-03-05T00:37:23"
+    }
+  }
+}
+At /Users/igorazevedo/Desktop/Programming/Chatbot/Calendar-Skill/calendarskill/Deployment/Scripts/msgraph_functions.ps1:40 char:14
++    $result = Invoke-RestMethod -Uri $url -Headers $headers
++              ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
++ CategoryInfo          : InvalidOperation: (Method: GET, Reques\u2026PowerShell/6.2.3
+}:HttpRequestMessage) [Invoke-RestMethod], HttpResponseException
++ FullyQualifiedErrorId : WebCmdletWebResponseException,Microsoft.PowerShell.Commands.InvokeRestMethodCommand
