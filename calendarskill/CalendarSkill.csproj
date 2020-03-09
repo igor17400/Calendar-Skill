@@ -34,7 +34,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\shared\SkillServiceLibrary\SkillServiceLibrary.csproj" />
+    <ProjectReference Include="../shared/SkillServiceLibrary/SkillServiceLibrary.csproj" />
   </ItemGroup>
 
   <ItemGroup>

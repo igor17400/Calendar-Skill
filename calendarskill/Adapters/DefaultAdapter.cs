@@ -36,15 +36,15 @@ namespace CalendarSkill.Adapters
                 await context.SendActivityAsync(new Activity(type: ActivityTypes.Trace, text: $"Calendar Skill Error: {exception.Message} | {exception.StackTrace}"));
                 telemetryClient.TrackException(exception);
 
-                //if (context.IsSkill())
-                //{
-                //    // Send and EndOfConversation activity to the skill caller with the error to end the conversation
-                //    // and let the caller decide what to do.
-                //    var endOfConversation = Activity.CreateEndOfConversationActivity();
-                //    endOfConversation.Code = "SkillError";
-                //    endOfConversation.Text = exception.Message;
-                //    await context.SendActivityAsync(endOfConversation);
-                //}
+                if (context.IsSkill())
+                {
+                    // Send and EndOfConversation activity to the skill caller with the error to end the conversation
+                    // and let the caller decide what to do.
+                    var endOfConversation = Activity.CreateEndOfConversationActivity();
+                    endOfConversation.Code = "SkillError";
+                    endOfConversation.Text = exception.Message;
+                    await context.SendActivityAsync(endOfConversation);
+                }
             };
 
             Use(telemetryMiddleware);

@@ -10,6 +10,10 @@ using Microsoft.Bot.Builder.Dialogs;
 using Microsoft.Bot.Schema;
 using Microsoft.Extensions.DependencyInjection;
 
+
+//link for online chatbot
+// https://webchat.botframework.com/embed/calendar-skill-u77cnkw/gemini?b=calendar-skill-u77cnkw&s=Ebyu4ZI_OTE.QIbELnW_A6HRwpT6sUXEv6GOw3O21Eld8Sqz7yYJGP0&username=You
+
 namespace CalendarSkill.Bots
 {
     public class DefaultActivityHandler<T> : ActivityHandler
