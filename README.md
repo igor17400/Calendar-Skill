@@ -1,5 +1,5 @@
 # Calendar-Skill
-Chatbot with calendar functionalities to arrange meetings through chat using my google agendas.
+Chatbot with calendar functionalities to arrange meetings through chat.
 
 ## Steps to built this awsome chatbot
 
@@ -124,10 +124,17 @@ The picture below shows the meeting request received in my email igorlima1740@gm
     width="400" 
     height="200"></img>
 
-As we can see, the meeting has been added to my Outlook agenda
+As we can see, the meeting has been added to my Outlook agenda and to my google agenda, which was the email I used to accept the meeting sent by the chatbot.
 
 <img 
     src="./images/image12.png"
+    alt="chatbot" 
+    title="A cute chatbot" 
+    width="400" 
+    height="200"></img>
+
+<img 
+    src="./images/image14.png"
     alt="chatbot" 
     title="A cute chatbot" 
     width="400" 
