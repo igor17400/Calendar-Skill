@@ -108,6 +108,13 @@ As we can see, I haven't schedule any events. The following images show how you 
     width="400" 
     height="500"></img>
 
+<img 
+    src="./images/image10.png"
+    alt="chatbot" 
+    title="A cute chatbot" 
+    width="400" 
+    height="500"></img>
+
 The picture below shows the meeting request received in my email igorlima1740@gmail.com sent by the chatbot.
 
 <img 
@@ -117,7 +124,7 @@ The picture below shows the meeting request received in my email igorlima1740@gm
     width="400" 
     height="200"></img>
 
-As we can see, the meeting has been added in my Outlook agends
+As we can see, the meeting has been added to my Outlook agenda
 
 <img 
     src="./images/image12.png"
