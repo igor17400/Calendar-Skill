@@ -61,7 +61,10 @@ https://microsoft.github.io/botframework-solutions/skills/handbook/authenticatio
 
 If you click login probably it will not work. Remember to mark 'Use a sign-in verication code for OAuthCards' in the Bot Framework Emulator  User settings.
 
+<br></br>
+
 After I clicked on the Login button the following page will open.
+
 <img 
     src="./images/image4.png"
     alt="chatbot" 
